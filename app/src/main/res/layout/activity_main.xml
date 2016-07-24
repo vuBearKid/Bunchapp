@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="link.vu1984.bunchapp.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="主题测试" />
+
+            <Button
+                android:id="@+id/butt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="二维码" />
+
+            <Button
+                android:id="@+id/butt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+
+            <Button
+                android:id="@+id/butt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+
+            <Button
+                android:id="@+id/butt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+            <Button
+                android:id="@+id/butt20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonOnclick"
+                android:text="temp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
