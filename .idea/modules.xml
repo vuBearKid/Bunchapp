@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bunchapp.iml" filepath="$PROJECT_DIR$/Bunchapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zxing-core-3.2.0/zxing-core-3.2.0.iml" filepath="$PROJECT_DIR$/zxing-core-3.2.0/zxing-core-3.2.0.iml" />
     </modules>
   </component>
 </project>

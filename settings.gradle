@@ -1,1 +1,1 @@
-include ':app', ':zxing-core-3.2.0'
+include ':app'

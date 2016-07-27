@@ -6,6 +6,13 @@
     android:orientation="vertical"
     tools:context="link.vu1984.bunchapp.QRcodeActivity">
 
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qr_image"
+        android:layout_gravity="center_horizontal" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,10 +28,22 @@
         android:id="@+id/c_qrcode"
         android:onClick="buttonOnclick"
         android:layout_gravity="center_horizontal" />
-
-    <ImageView
+    <Button
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/qr_image"
+        android:text="选择图片"
+        android:id="@+id/c_qrcode_select"
+        android:onClick="buttonOnclick"
         android:layout_gravity="center_horizontal" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫描二维码"
+        android:id="@+id/c_qrcode_scan"
+        android:onClick="buttonOnclick"
+        android:layout_gravity="center_horizontal" />
+
+
 </LinearLayout>
