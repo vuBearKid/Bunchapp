@@ -3,6 +3,7 @@
     package="link.vu1984.bunchapp">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".VUApplication"
@@ -21,7 +22,8 @@
         <activity
             android:name=".ThemeActivity"
             android:theme="@style/AppThemeTest" />
-        <activity android:name=".QRcodeActivity"></activity>
+        <activity android:name=".QRcodeActivity" />
+        <activity android:name=".QRcodeScanerActivity"></activity>
     </application>
 
 </manifest>

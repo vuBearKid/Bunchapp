@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 
 public class MainActivity extends VUActivity {
-    private static final String TAG = "MainActivity";
+    public static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,6 +1,10 @@
 package link.vu1984.bunchapp;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
+import android.provider.DocumentsContract;
 import android.util.Log;
 
 import java.text.DateFormat;
@@ -114,6 +118,15 @@ public class VUtil {
                 ((i >> 16 ) & 0xFF) + "." +
                 ( i >> 24 & 0xFF) ;
     }
+
+    /**
+     *
+     * @return 当前 sdk 版本号
+     */
+    public static int getSDKLevel(){
+        return Build.VERSION.SDK_INT;
+    }
+
 
 }
 

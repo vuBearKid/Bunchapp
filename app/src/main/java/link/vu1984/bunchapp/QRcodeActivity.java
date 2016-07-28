@@ -48,7 +48,7 @@ public class QRcodeActivity extends AppCompatActivity {
 
     public void buttonOnclick(View view) {
         //Toast.makeText(this,view.getId()+"",Toast.LENGTH_SHORT).show();
-        //Intent intent;
+        Intent intent;
         switch (view.getId()) {
             case R.id.c_qrcode:
                 String str = inputText.getText().toString();
@@ -90,6 +90,8 @@ public class QRcodeActivity extends AppCompatActivity {
                 this.startActivityForResult(wrapperIntent, QRCODE_REQUEST_CODE);
                 break;
             case R.id.c_qrcode_scan:
+                intent = new Intent(this,QRcodeScanerActivity.class);
+                startActivity(intent);
                 break;
 
 
@@ -170,8 +172,8 @@ public class QRcodeActivity extends AppCompatActivity {
         switch (requestCode) {
             case QRCODE_REQUEST_CODE:
                 if (resultCode == RESULT_OK) {
-                    Uri uri = data.getData();
-                    Toast.makeText(this, uri.toString(), Toast.LENGTH_SHORT).show();
+                    String imagePath = VUApplication.getImagePathFromResult(data);
+                    Toast.makeText(this, imagePath, Toast.LENGTH_SHORT).show();
                 }
                 break;
         }
